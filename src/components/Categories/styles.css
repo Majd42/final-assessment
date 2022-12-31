@@ -1,0 +1,35 @@
+.catagories {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.catagories-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+
+.catagory-btn {
+    background-color: transparent;
+    color: var(--color-white);
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: var(--transition);
+    
+}
+
+.catagory-btn:hover{
+    color: var(--secondary-color);
+}
+
+
+.active-cat{
+    color: var(--secondary-color);
+}

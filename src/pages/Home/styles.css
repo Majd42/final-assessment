@@ -1,0 +1,19 @@
+.MuiPaginationItem-root{
+    background-color: var(--color-white);
+  }
+
+
+  .MuiPaginationItem-root.Mui-selected {
+    background-color: var(--secondary-color);
+  }
+
+  .def-category{
+    background:url('../../assets/background/background.jpg');
+    text-align: center;
+    padding: 1rem 0;
+    letter-spacing: .4rem;
+  }
+
+  .category{
+    color: var(--secondary-color);
+  }
